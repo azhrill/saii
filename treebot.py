@@ -14,7 +14,7 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""Ŧяәәƅoŧ v2.7
+helpMessage ="""Self BotBy.Sai
  ~~~~~~~ Command ~~~~~~~
 ¤  Tagall     - Tagall Member Group
 ¤  Lurking    - Set Point Read
@@ -99,9 +99,9 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"u9489706a45fcf78bea076c6b77f7067d"]
-admsa = "u9489706a45fcf78bea076c6b77f7067d"
-admin = "u9489706a45fcf78bea076c6b77f7067d"
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"ubd78f3da598d3c32e075e062e88545ec"]
+admsa = "ubd78f3da598d3c32e075e062e88545ec"
+admin = "ubd78f3da598d3c32e075e062e88545ec"
 
 wait = {
     'contact':False,
@@ -112,7 +112,7 @@ wait = {
     'autoAdd':True,
     'message':" ",
     "lang":"JP",
-    "comment":"Auto Like",
+    "comment":"Auto Like by.Sai",
     "commentOn":False,
     "likeOn":False,
     "commentBlack":{},
