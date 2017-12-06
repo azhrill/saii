@@ -524,6 +524,16 @@ def bot(op):
                     ki5.updateProfile(profile)
                     ki5.sendText(msg.to,"􀜁􀇔􏿿Update Names👉" + string + "👈")  
 #--------------------------------------------------------
+
+#--------------------------------------------------------
+	    elif msg.text in ["เช็คแอด","Gcreator","gcreator"]:
+		ginfo = cl.getGroup(msg.to)
+		gCreator = ginfo.creator.mid
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': gCreator}
+                cl.sendMessage(msg)
+		cl.sendText(msg.to,"แอดห้อง")
+#--------------------------------------------------------
             elif "Mid: " in msg.text:
                 mmid = msg.text.replace("Mid: ","")
                 msg.contentType = 13
